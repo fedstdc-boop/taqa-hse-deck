@@ -388,6 +388,30 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
 #s4b .st b{display:block;font-family:var(--fh);font-weight:800;font-size:50px;line-height:1.05;letter-spacing:-.02em;color:var(--ink)}
 #s4b .st b em{font-style:normal;color:var(--red)}
 #s4b .st span{display:block;font-size:20px;line-height:1.35;margin-top:10px;color:#5b5754}
+
+/* ---------- S8c confined spaces ---------- */
+#s8c{background:radial-gradient(900px 600px at 30% 100%,rgba(224,0,0,.18),transparent 70%),#222}
+#s8c .left{position:absolute;left:120px;top:90px;width:720px}
+#s8c .title{font-size:52px}
+#s8c .lede{font-family:var(--fh);font-weight:700;font-size:21px;color:#ff5a4f;margin:16px 0 0}
+#s8c .blk{margin-top:24px}
+#s8c .blk h4{font-family:var(--fh);font-weight:700;font-size:18px;color:var(--grey-l);margin:0 0 8px}
+#s8c .blk p{margin:0;font-size:21px;line-height:1.42;color:rgba(255,255,255,.85)}
+#s8c .blk ul{list-style:none;margin:0;padding:0}
+#s8c .blk li{position:relative;padding-left:24px;font-size:20px;line-height:1.38;color:rgba(255,255,255,.85);margin-bottom:5px}
+#s8c .blk li::before{content:"";position:absolute;left:0;top:.55em;width:9px;height:9px;background:var(--red)}
+#s8c .hero{position:absolute;left:120px;top:742px;width:720px;height:224px;background:var(--red);border-radius:4px 18px 18px 4px;display:flex;align-items:center;gap:30px;padding:0 36px}
+#s8c .hero b{font-family:var(--fh);font-weight:900;font-size:170px;line-height:1;letter-spacing:-.04em}
+#s8c .hero h5{font-family:var(--fh);font-weight:800;font-size:29px;line-height:1.15;margin:0 0 10px}
+#s8c .hero p{margin:0;font-size:18px;line-height:1.4;color:rgba(255,255,255,.9)}
+#s8c .media{position:absolute;left:920px;top:120px;width:880px;height:495px;border-radius:16px;overflow:hidden;background:#111;border:1px solid rgba(255,255,255,.12)}
+#s8c .media video{display:block;width:100%;height:100%;object-fit:cover}
+#s8c .recv{position:absolute;left:920px;top:648px;width:880px}
+#s8c .recv h4{font-family:var(--fh);font-weight:700;font-size:20px;color:#ff5a4f;margin:0 0 14px}
+#s8c .tiles{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+#s8c .tile{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-left:5px solid var(--red);border-radius:6px 14px 14px 6px;padding:18px 22px;min-height:132px}
+#s8c .tile b{display:block;font-family:var(--fh);font-weight:800;font-size:24px;margin-bottom:6px}
+#s8c .tile span{display:block;font-size:18px;line-height:1.38;color:rgba(255,255,255,.75)}
 /* ---------- S17 thank you ---------- */
 #s17{background:var(--ink)}
 #s17 .photo{position:absolute;left:960px;top:0;width:960px;height:1080px;object-fit:cover}
@@ -795,6 +819,34 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
   <div class="foot"><span>FEDS Group | TAQA HSE Day 2026</span><span>Procedural controls<b class="pg"></b></span></div>
 </section>
 
+<!-- ========== 8c. Confined spaces ========== -->
+<section class="slide" id="s8c" data-section="Confined spaces">
+  <div class="left">
+    <h2 class="title">Confined space inspection: no one goes in</h2>
+    <p class="lede">Supports TAQA Essential Safety Rule 4: Confined Space Entry</p>
+    <div class="blk"><h4>Where it applies</h4><ul>
+      <li>Cable tunnels and manholes on underground routes</li>
+      <li>Cable chambers, pits and trenches</li>
+      <li>Basements and trenches in gas-insulated substations, where SF₆ can collect</li>
+      <li>Transformer tanks during internal inspection</li>
+    </ul></div>
+    <div class="blk"><h4>The risk</h4><p>Oxygen-deficient or toxic atmospheres, restricted access and difficult rescue.</p></div>
+    <div class="blk"><h4>What we do</h4><p>Our pilots fly a caged inspection drone through the space from the entry point. The full inspection is completed without anyone stepping inside.</p></div>
+  </div>
+  <div class="hero"><b>0</b><div><h5>people inside the space during inspection</h5><p>Confined space entry for inspection is eliminated, not managed. Elimination sits at the top of the hierarchy of controls.</p></div></div>
+  <div class="media"><video class="dji" src="video/cs.mp4" data-vid="vid-cs" muted autoplay loop playsinline preload="metadata" poster="img/i06-b97e9e.jpg" aria-label="Caged inspection drone flying through underground pipe chambers and a cable tunnel"></video><span class="credit">Footage: Flybotix</span></div>
+  <div class="recv">
+    <h4>Inspection outputs</h4>
+    <div class="tiles">
+      <div class="tile"><b>Interior video</b><span>Lit footage of walls, cables, joints and fittings</span></div>
+      <div class="tile"><b>3D scan</b><span>A measurable model of the space for planning and records</span></div>
+      <div class="tile"><b>Gas readings</b><span>Oxygen, H₂S and CO levels recorded from inside the space</span></div>
+      <div class="tile"><b>Inspection report</b><span>Defects located, imaged and ranked by severity</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>FEDS Group | TAQA HSE Day 2026</span><span>Confined spaces<b class="pg"></b></span></div>
+</section>
+
 <!-- ========== 9. Environment ========== -->
 <section class="slide" id="s9" data-section="Environment">
   <div class="head">
@@ -904,8 +956,8 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
     <div class="blk"><h4>Deliverables</h4><p>Monthly inspection reports against the agreed scope, with data collected for 309 km of circuit.</p></div>
   </div>
   <div class="safe"><small>Safety outcome</small><p>Sections with no vehicle access inspected without crews walking in or moving heavy plant.</p></div>
-  <div class="media" style="left:920px;top:120px;width:430px;height:290px"><img src="img/i06-3f61dc.jpg" alt="AI detection labelling insulators and vibration dampers on a tower"><span class="credit">AI component detection</span></div>
-  <div class="media" style="left:1370px;top:120px;width:430px;height:290px"><img src="img/i07-6411ef.jpg" alt="Close-up drone image of an insulator and clamp assembly"><span class="credit">Close-up inspection imagery</span></div>
+  <div class="media" style="left:920px;top:120px;width:430px;height:290px"><img src="img/i07-3f61dc.jpg" alt="AI detection labelling insulators and vibration dampers on a tower"><span class="credit">AI component detection</span></div>
+  <div class="media" style="left:1370px;top:120px;width:430px;height:290px"><img src="img/i08-6411ef.jpg" alt="Close-up drone image of an insulator and clamp assembly"><span class="credit">Close-up inspection imagery</span></div>
   <div class="sched">
     <h5>Programme schedule</h5>
     <div class="strip"><i style="flex:1" title="F14"></i><i style="flex:2" title="F1 to F4"></i><i style="flex:1" title="F5"></i><i style="flex:1" title="F6"></i><i style="flex:3" title="F7 to F9"></i><i style="flex:2" title="F10"></i><i style="flex:1" title="F11"></i><i style="flex:1" title="F12 to F13"></i><i style="flex:4" title="F15"></i><i style="flex:4" title="F16"></i><i style="flex:3" title="F17"></i></div>
@@ -931,7 +983,7 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
     <div class="blk"><h4>Deliverables</h4><p>Survey report, classified 3D point cloud, surface and terrain models, georeferenced 2D maps and GIS-linked tower data, with QA/QC reporting (RMSE, GCP checks, RTK/PPK logs).</p></div>
   </div>
   <div class="safe"><small>Safety outcome</small><p>No surveyors walking the corridor or working beneath live spans.</p></div>
-  <div class="media" style="left:920px;top:120px;width:880px;height:495px"><video class="dji" src="video/lidar.mp4" data-vid="vid-lidar" muted autoplay loop playsinline preload="metadata" poster="img/i08-c8942f.jpg" aria-label="LiDAR point cloud flythrough of a transmission corridor in RGB, elevation and classified views"></video><span class="credit" style="top:12px;bottom:auto">FEDS survey data</span></div>
+  <div class="media" style="left:920px;top:120px;width:880px;height:495px"><video class="dji" src="video/lidar.mp4" data-vid="vid-lidar" muted autoplay loop playsinline preload="metadata" poster="img/i09-c8942f.jpg" aria-label="LiDAR point cloud flythrough of a transmission corridor in RGB, elevation and classified views"></video><span class="credit" style="top:12px;bottom:auto">FEDS survey data</span></div>
   <div class="figs" style="top:680px">
     <div class="fig"><b>10,300<em>+</em></b><span>km of circuit surveyed and inspected</span></div>
     <div class="fig"><b>50 km</b><span>per day, with five field teams deployed in parallel</span></div>
@@ -950,8 +1002,8 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
     <div class="blk"><h4>Deliverables</h4><p>Clearance-violation report, sag profiles, sand and vegetation risk heatmaps with severity ranking, and a prioritised intervention list.</p></div>
   </div>
   <div class="safe"><small>Safety outcome</small><p>Clearance risks ranked from the data before they become incidents, with no manual measurement at height.</p></div>
-  <div class="media" style="left:920px;top:120px;width:880px;height:400px"><video class="dji" src="video/encroach.mp4" data-vid="vid-encroach" muted autoplay loop playsinline preload="metadata" poster="img/i09-5e7b42.jpg" aria-label="Classified point cloud flythrough; red marks vegetation to trim before it reaches the line"></video><span class="credit">Red: vegetation to trim before it reaches the line</span></div>
-  <div class="media" style="left:920px;top:550px;width:430px;height:280px"><img src="img/i10-b5d0df.jpg" alt="Point cloud with measured conductor-to-vegetation clearances"><span class="credit">Measured conductor clearances</span></div>
+  <div class="media" style="left:920px;top:120px;width:880px;height:400px"><video class="dji" src="video/encroach.mp4" data-vid="vid-encroach" muted autoplay loop playsinline preload="metadata" poster="img/i10-5e7b42.jpg" aria-label="Classified point cloud flythrough; red marks vegetation to trim before it reaches the line"></video><span class="credit">Red: vegetation to trim before it reaches the line</span></div>
+  <div class="media" style="left:920px;top:550px;width:430px;height:280px"><img src="img/i11-b5d0df.jpg" alt="Point cloud with measured conductor-to-vegetation clearances"><span class="credit">Measured conductor clearances</span></div>
   <div class="stack">
     <div class="fig"><b>7.5 m</b><span>clearance threshold: spans below it flagged where dunes had built up</span></div>
     <div class="fig"><b>4 <em>towers</em></b><span>leaning 2–3°, beyond acceptable limits</span></div>
@@ -970,9 +1022,9 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
     <div class="blk"><h4>Deliverables</h4><p>Inspection report with a defect register, close-up images, temperature readings, severity ranking and verified technical recommendations.</p></div>
   </div>
   <div class="safe"><small>Safety outcome</small><p>Defects found from outside minimum approach distances, with no climbing and the line in service.</p></div>
-  <div class="media" style="left:920px;top:120px;width:580px;height:464px"><img src="img/i11-f47018.jpg" alt="Radiometric thermal image of a transmission tower showing a 77.2 degree hotspot on a conductor fitting"><span class="credit">Radiometric thermal</span></div>
-  <div class="media" style="left:1520px;top:120px;width:280px;height:222px"><img src="img/i12-f07b95.jpg" alt="Close-up of insulator strings with defects highlighted"><span class="credit">Visual defects</span></div>
-  <div class="media" style="left:1520px;top:362px;width:280px;height:222px"><img src="img/i13-3f61dc.jpg" alt="AI detection labelling insulators and vibration dampers on a tower"><span class="credit">AI detection</span></div>
+  <div class="media" style="left:920px;top:120px;width:580px;height:464px"><img src="img/i12-f47018.jpg" alt="Radiometric thermal image of a transmission tower showing a 77.2 degree hotspot on a conductor fitting"><span class="credit">Radiometric thermal</span></div>
+  <div class="media" style="left:1520px;top:120px;width:280px;height:222px"><img src="img/i13-f07b95.jpg" alt="Close-up of insulator strings with defects highlighted"><span class="credit">Visual defects</span></div>
+  <div class="media" style="left:1520px;top:362px;width:280px;height:222px"><img src="img/i14-3f61dc.jpg" alt="AI detection labelling insulators and vibration dampers on a tower"><span class="credit">AI detection</span></div>
   <div class="figs" style="top:650px">
     <div class="fig"><b>77.2<em>°C</em></b><span>hotspot on a conductor fitting, 35.4°C above the reference point</span></div>
     <div class="fig"><b>3,500</b><span>towers in a single three-year aerial inspection programme</span></div>
@@ -991,7 +1043,7 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
     <div class="blk"><h4>Outputs</h4><p>Cleaning report with before-and-after imagery and a completion log.</p></div>
   </div>
   <div class="safe"><small>Safety outcome</small><p>No tower men at height or near energised conductors, and no shutdown required.</p></div>
-  <div class="media" style="left:920px;top:120px;width:880px;height:420px"><video class="dji" src="video/cleaning.mp4" data-vid="vid-cleaning" muted autoplay loop playsinline preload="metadata" poster="img/i14-d0e2f1.jpg" aria-label="Drone washing insulators on a transmission tower"></video><span class="credit">Drone insulator washing</span></div>
+  <div class="media" style="left:920px;top:120px;width:880px;height:420px"><video class="dji" src="video/cleaning.mp4" data-vid="vid-cleaning" muted autoplay loop playsinline preload="metadata" poster="img/i15-d0e2f1.jpg" aria-label="Drone washing insulators on a transmission tower"></video><span class="credit">Drone insulator washing</span></div>
   <div class="chart">
     <h5>Insulators cleaned per day</h5>
     <div class="bar"><span>Manual</span><i style="width:8%"></i><b>12–20</b></div>
@@ -1010,9 +1062,9 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
 
 <!-- ========== 17. Thank you ========== -->
 <section class="slide" id="s17" data-section="">
-  <img class="photo" src="img/i15-1accca.jpg" alt="FEDS drone pilots with their aircraft beside a transmission tower">
+  <img class="photo" src="img/i16-1accca.jpg" alt="FEDS drone pilots with their aircraft beside a transmission tower">
   <div class="stripe"></div>
-  <img class="logo" src="img/i16-a51c61.png" alt="FEDS">
+  <img class="logo" src="img/i17-a51c61.png" alt="FEDS">
   <h2>Thank you</h2>
   <p class="sub">Questions and discussion</p>
   <div class="who"><b>Sheraz Mohamed</b><span>Project Manager, FEDS Drone-powered Solutions</span><span>enquiry@feds.ae</span></div>
@@ -1027,7 +1079,7 @@ video.dji{display:block;width:100%;height:100%;object-fit:cover;background:#111}
 <div id="blank" style="display:none;position:fixed;inset:0;background:#000;z-index:100"></div>
 <nav class="ctrl" aria-label="Slide controls">
   <button id="prev" aria-label="Previous slide"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
-  <span id="counter">1 / 19</span>
+  <span id="counter">1 / 20</span>
   <button id="next" aria-label="Next slide"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
   <button id="fs" aria-label="Full screen"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
 </nav>
